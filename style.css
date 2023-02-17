@@ -3,3 +3,9 @@ body { background: #eee; margin: 0; font-family: "Lexend Deca"; color: #222222; 
 .heading { display: flex; width: 100%; justify-content: left; align-items: center; min-height: 250px; background: black; background-image: url('https://raw.githubusercontent.com/trvecrvppop/trvecrvppop.github.io/main/trve-crvp-pop-logo.jpg'); background-repeat: no-repeat; background-position: right 10% top; background-size: contain; }
 
 h1 { font-size: 4em; margin-left: 6vw; font-weight: 800; color: white; }
+
+/* EPISODE TABLE STYLES */
+.episodeTable { display: flex; flex-direction: column; margin: auto; width: 88%; background: white; }
+.episodeEntry { display: flex; flex-direction: row; }
+.episodeEntry:not(:last-of-type) { border-bottom: 1px solid #eee; }
+.episodeCode { flex: 0 0 50px; display: flex; align-items: center; justify-content: center; background: #222222; color: white; border-right: 1px solid #eee; font-weight: 800; font-size: 2em; }
