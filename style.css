@@ -16,4 +16,5 @@ h1 { font-size: 4em; margin-left: 6vw; font-weight: 800; color: white; }
 .episodeLinks { display: flex; flex-direction: column; justify-content: center; align-self: stretch; min-width: 100px; background: #444444; color: white; text-align: center; }
 .episodeIcons { display: flex; flex-direction: row; justify-content: center; align-self: stretch; padding-top: 10px; }
 .episodeIcons a:first-of-type { padding-right: 5px; }
+.episodeIcons a:hover { opacity: .8; }
 .episodeIcons img { width: 25px; }
