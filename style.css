@@ -7,7 +7,13 @@ body { background: #eee; margin: 0; font-family: "Lexend Deca"; color: #222222; 
 
 h1 { font-size: 4em; margin-left: 6vw; font-weight: 800; color: white; }
 
-/* EPISODE TABLE STYLES */
+/* ACCORDION STYLING */
+.accordionItem:not(:last-of-type) { border-bottom: 1px solid #eee; }
+
+/* CHART TABLE STYLING */
+.chartTable { display: flex; flex-direction: column; margin: auto; width: 88%; background: white; }
+
+/* EPISODE TABLE STYLING */
 .episodeTable { display: flex; flex-direction: column; margin: auto; margin-top: 2em; margin-bottom: 2em; width: 88%; background: white; }
 .episodeEntry { display: flex; flex-direction: row; width: 100%; }
 .episodeEntry:not(:last-of-type) { border-bottom: 1px solid #eee; }
