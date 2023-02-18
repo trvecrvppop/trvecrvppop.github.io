@@ -1,7 +1,7 @@
 body { background: #eee; margin: 0; font-family: "Lexend Deca"; color: #222222; }
 
 .heading { display: flex; width: 100%; justify-content: left; align-items: center; min-height: 250px; background: black; background-image: url('https://raw.githubusercontent.com/trvecrvppop/trvecrvppop.github.io/main/trve-crvp-pop-logo.jpg'); background-repeat: no-repeat; background-position: right 10% top; background-size: contain; }
-.footer { display: flex; width: 100%; justify-content: center; align-items: center; min-height: 50px; background: black; color: white; font-size: 20px; }
+.footer { display: flex; width: 100%; justify-content: center; align-items: center; min-height: 75px; background: black; color: white; font-size: 20px; }
 .footer a { color: white; }
 .footer a:hover { opacity: .8; }
 
