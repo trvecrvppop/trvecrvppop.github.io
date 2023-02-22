@@ -33,10 +33,13 @@ h1 { font-size: 4em; margin-left: 6vw; font-weight: 800; color: white; }
 .accordion-flush .accordion-item .accordion-button { border-radius: 0; }
 
 /* CHART TABLE STYLING */
-.chartTable { display: flex; flex-direction: column; margin: auto; width: 88%; background: white; }
+.chartTable { display: flex; flex-direction: column; margin: auto; width: 88%; margin-top: 2em; margin-bottom: 2em; background: white; }
+.chartEntry { display: flex; flex-direction: row; width: 100%; }
+.chartEntry:not(:last-of-type) { border-bottom: 1px solid #eee; }
+.albumRank { display: flex; flex-direction: column; justify-content: center; align-self: stretch; min-width: 100px; background: #222222; padding: 20px; text-align: center; color: white; font-size: 20px; }
 
 /* EPISODE TABLE STYLING */
-.episodeTable { display: flex; flex-direction: column; margin: auto; margin-top: 2em; margin-bottom: 2em; width: 88%; background: white; }
+.episodeTable { display: flex; flex-direction: column; margin: auto; width: 88%; margin-top: 2em; margin-bottom: 2em; background: white; }
 .episodeEntry { display: flex; flex-direction: row; width: 100%; }
 .episodeEntry:not(:last-of-type) { border-bottom: 1px solid #eee; }
 .episodeCode { display: flex; flex-direction: column; justify-content: center; align-self: stretch; min-width: 100px; background: #222222; padding: 20px; text-align: center; color: white; font-size: 20px; }
