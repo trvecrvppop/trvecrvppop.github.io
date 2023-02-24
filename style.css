@@ -37,6 +37,8 @@ h1 { font-size: 4em; margin-left: 6vw; font-weight: 800; color: white; }
 .chartEntry { display: flex; flex-direction: row; width: 100%; }
 .chartEntry:not(:last-of-type) { border-bottom: 1px solid #eee; }
 .albumRank { display: flex; flex-direction: column; justify-content: center; align-self: stretch; min-width: 100px; background: #222222; padding: 20px; text-align: center; color: white; font-size: 20px; }
+.albumCover { display: flex; justify-content: center; min-width: 250px; }
+.albumName { display: flex; flex-direction: column; justify-content: stretch; align-self: stretch; width: 100%; padding: 20px; font-size: 18px; }
 
 /* EPISODE TABLE STYLING */
 .episodeTable { display: flex; flex-direction: column; margin: auto; width: 88%; margin-top: 2em; margin-bottom: 2em; background: white; }
