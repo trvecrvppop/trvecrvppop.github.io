@@ -14,38 +14,16 @@ h4 { font-size: 18px; font-weight: 400; margin-block-start: 0.4em; }
 .menuItem a:hover { font-weight: bold; }
 
 /* ACCORDION STYLING */
-.accordion-item { border-bottom: 1px solid #eee !important; }
-
-
-/* LIGHTBOX STYLING */
-.albumLink:hover { cursor: pointer; }
-.modal { display: none; position: fixed; z-index: 1; padding-top: 100px; left: 0; top: 0; width: 100%; height: 100%; overflow: auto; background-color: rgba(0,0,0,0.8); }
-.modal-content { position: relative; background-color: #fefefe; margin: auto; padding: 0; width: 90%; max-width: 1200px; }
-.close { color: white; position: absolute; top: 10px; right: 25px; font-size: 35px; font-weight: bold; }
-.close:hover, .close:focus { color: #999; text-decoration: none; cursor: pointer; }
-.mySlides { display: none; }
-.cursor { cursor: pointer; }
-
-
-
-/* CHART TABLE STYLING */
-.chartTable { display: flex; flex-direction: column; margin: auto; width: 88%; margin-top: 2em; margin-bottom: 2em; background: white; }
-button[aria-expanded="false"] .albumHeading, button[aria-expanded="false"] .albumHeading2 { background: white; }
-.accordion-item .albumHeading, .accordion-item .albumHeading2 { display: flex; flex-direction: row; width: 100%; margin: auto; }
-.accordion-item .albumRank { display: flex; flex: 0 0 100px; align-items: center; justify-content: center; background: #222222; color: white; border-right: 1px solid #eee; font-weight: 800; font-size: 24px; }
-.accordion-item .albumCover { display: flex; flex: 0 0 150px; align-items: center; justify-content: center; }
-.accordion-item .albumCover img { width: 100%; }
-.accordion-item .albumInfo { flex: 6; margin-left: 10px; margin-top: auto; margin-bottom: auto; }
-.accordion-item .albumInfo2 { display: flex; flex-direction: row; padding-top: 25px; padding-bottom: 25px; margin-left: 10px; }
-.accordion-button { padding: 0 !important; }
-.accordion-button:focus { border: none !important; box-shadow: none !important; }
-.accordion-body { font-size: 18px; }
-.fa-solid { padding-right: 5px; }
-
-/* FOOTER STYLING */
-.footer { display: flex; width: 100%; justify-content: center; align-items: center; min-height: 75px; background: black; color: white; font-size: 20px; }
-.footer a { color: white; }
-.footer a:hover { opacity: .8; }
+.accordionItem { float: left; display: block; width: 100%; box-sizing: border-box; }
+.chartEntry1 { display: flex; flex-direction: row; cursor: pointer; background: #2980b9; color: #fff; width: 100%; box-sizing: border-box; }
+.chartEntry1:not(:last-of-type) { border-bottom: 1px solid red; }
+.close .accordionItemContent { display: block; float: left; height: 0px; transition: height 1s ease-out; -webkit-transform: scaleY(0); -o-transform: scaleY(0); -ms-transform: scaleY(0); transform: scaleY(0); }
+.open .accordionItemContent { display: block;padding: 20px; background-color: #fff; border: 1px solid #ddd; width: 100%; margin: 0px 0px 10px 0px; -webkit-transform: scaleY(1); -o-transform: scaleY(1); -ms-transform: scaleY(1); transform: scaleY(1); -webkit-transform-origin: top; -o-transform-origin: top; -ms-transform-origin: top; transform-origin: top; -webkit-transition: -webkit-transform 0.4s ease-out; -o-transition: -o-transform 0.4s ease; -ms-transition: -ms-transform 0.4s ease; transition: transform 0.4s ease; box-sizing: border-box; }
+.open .chartEntry1 { border-bottom: none; margin: 0px; -background-color: #bdc3c7; color: #7f8c8d; }
+.albumRank { display: flex; flex: 0 0 100px; align-items: center; justify-content: center; background: #222; font-weight: 800; font-size: 24px; }
+.albumCover { display: flex; flex: 0 0 150px; align-items: center; justify-content: center; }
+.albumCover img { width: 100%; }
+.albumName { margin-left: 20px; margin-top: auto; margin-bottom: auto; }
 
 /* EPISODE TABLE STYLING */
 .episodeTable { display: flex; flex-direction: column; margin: auto; width: 88%; margin-top: 2em; margin-bottom: 2em; background: white; }
