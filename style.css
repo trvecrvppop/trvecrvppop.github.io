@@ -3,7 +3,7 @@ body { background: #eee; margin: 0; font-family: "Lexend Deca"; color: #222222; 
 h1 { font-size: 64px; margin-left: 6vw; font-weight: 800; color: white; }
 h2 { font-size: 32px; font-weight: 600; text-align: center; letter-spacing: -0.05em; margin: 0; }
 h3 { font-size: 24px; font-weight: 600; margin-block-start: 0; margin-block-end: 0; }
-h4 { font-size: 18px; font-weight: 400; margin-block-start: 0.3em; margin-block-end: 0; margin-left: 10px; }
+h4 { font-size: 18px; font-weight: 400; margin-block-start: 6px; margin-block-end: 0; margin-left: 6px; }
 
 /* HEADER STYLING */
 .heading { display: flex; width: 100%; justify-content: left; align-items: center; min-height: 250px; background: black; background-image: url('https://raw.githubusercontent.com/trvecrvppop/trvecrvppop.github.io/main/trve-crvp-pop-logo.jpg'); background-repeat: no-repeat; background-position: right 10% top; background-size: contain; }
