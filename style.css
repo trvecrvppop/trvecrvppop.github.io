@@ -22,7 +22,6 @@ h4 { font-size: 18px; font-weight: 400; margin-block-start: 6px; margin-block-en
 .ac-container article .albumStats, .ac-container article .albumLinks { width: 50%; display: flex; flex-direction: column; }
 .ac-container article .albumStats p { margin-block-start: 5px; margin-block-end: 10px; }
 .ac-container article .albumStats p:first-of-type { margin-block-start: 20px; }
-.ac-container article .albumLinks h4 { text-align: center; }
 .ac-container article p { font-size: 18px; }
 .ac-container input:checked ~ label { background: #E7F1FF; }
 .ac-container input:checked ~ article { padding: 20px; height: auto; border-top: none; }
