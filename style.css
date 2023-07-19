@@ -33,7 +33,7 @@ h4 { font-size: 18px; font-weight: 400; margin-block-start: 6px; margin-block-en
 .albumCover { display: flex; flex: 0 0 150px; align-items: center; justify-content: center; }
 .albumCover img { width: 100%; }
 .albumName { display: flex; flex-direction: row; margin-left: 20px; margin-right: 20px; margin-top: auto; margin-bottom: auto; }
-.albumName h3 { font-size: 24px; text-align: left; margin-top: 0; margin-bottom: 0; }
+.albumName h3 { font-size: 2rem; text-align: left; margin-top: 0; margin-bottom: 0; }
 
 /* EPISODE TABLE STYLING */
 .episodeTable { display: flex; flex-direction: column; margin: auto; width: 88%; margin-top: 2em; margin-bottom: 2em; background: white; }
